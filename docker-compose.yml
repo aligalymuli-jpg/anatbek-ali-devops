@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    image: anatbek-ali-devops
+    container_name: anatbek-ali-container
+    environment:
+      STUDENT_NAME: Ali
+      STUDENT_SURNAME: Anatbek
+      STUDENT_GROUP: IT2-2309
+      STUDENT_ID: "41505"
+    ports:
+      - "8080:8080"
